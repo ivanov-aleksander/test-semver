@@ -9,7 +9,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     env:
-      INPUT_RELEASE-BRANCH: main
+      INPUT_RELEASE-BRANCH: "main"
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
