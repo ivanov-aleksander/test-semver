@@ -20,4 +20,4 @@ jobs:
         with:
           release-branch: main
           prefix: docker-
-          log-path: docker/
+          log-paths: docker/
