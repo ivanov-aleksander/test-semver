@@ -19,3 +19,5 @@ jobs:
         uses: codacy/git-version@2.2.0
         with:
           release-branch: main
+          prefix: docker-
+          log-path: docker/
