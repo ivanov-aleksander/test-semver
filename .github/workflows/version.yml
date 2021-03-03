@@ -8,8 +8,6 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    env:
-      INPUT_RELEASE-BRANCH: "main"
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -19,3 +17,5 @@ jobs:
 
       - name: Git Version
         uses: codacy/git-version@2.2.0
+        with:
+          release-branch: main
